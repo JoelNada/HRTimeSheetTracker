@@ -5,7 +5,7 @@ import Role from "./Role.js";
 import Department from "./Department.js";
 import ExcelUploadLog from "./ExcelUploadLog.js";
 
-const models = {Employee, Manager, User, Role, ExcelUploadLog};
+const models = {Employee, Manager, User, Role, ExcelUploadLog, Department};
 
 Employee.belongsTo(Department,{
     foreignKey: 'departmentId',
