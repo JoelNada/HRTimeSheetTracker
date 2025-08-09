@@ -55,9 +55,9 @@ npm install
 ```
 and 
 ```bash 
-npm start
-```
-to run the backend application
+npm start  
+``` to run the application
+
 ---
 
 ## Usage
