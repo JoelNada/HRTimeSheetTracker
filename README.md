@@ -56,7 +56,8 @@ npm install
 and 
 ```bash 
 npm start  
-``` to run the application
+```
+to run the application
 
 ---
 
