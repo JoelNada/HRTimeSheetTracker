@@ -63,21 +63,21 @@ to run the application
 
 ## Usage
 ### Uploading Employee Data
--Use the /upload/employees endpoint to upload Excel files (.xlsx).
--The file should contain employee details with columns matching your model fields.
--Rich text formatting in Excel cells is supported and handled programmatically.
+- Use the /upload/employees endpoint to upload Excel files (.xlsx).
+- The file should contain employee details with columns matching your model fields.
+- Rich text formatting in Excel cells is supported and handled programmatically.
 
 ### Uploading Timesheets
--Use the /upload/timesheets endpoint to upload weekly timesheets.
--Duplicate entries for the same (employeeId, date, task) update the existing record.
--Empty rows or invalid data are skipped and logged.
+- Use the /upload/timesheets endpoint to upload weekly timesheets.
+- Duplicate entries for the same (employeeId, date, task) update the existing record.
+- Empty rows or invalid data are skipped and logged.
 
 ### Authentication & Roles
--Register and login to receive access tokens.
--API routes are protected by role-based middleware.
--Admin users can manage employees, roles, departments, and view reports.
--Employees submit their timesheet data offline (e.g., Excel files) which are then uploaded by authorized personnel.
+- Register and login to receive access tokens.
+- API routes are protected by role-based middleware.
+- Admin users can manage employees, roles, departments, and view reports.
+- Employees submit their timesheet data offline (e.g., Excel files) which are then uploaded by authorized personnel.
 
 ### Generating Reports
--API endpoints support filtering and grouping by employee, department, role, and date ranges.
--Aggregated statistics (total hours worked, average hours, etc.) are available for management.
+- API endpoints support filtering and grouping by employee, department, role, and date ranges.
+- Aggregated statistics (total hours worked, average hours, etc.) are available for management.
