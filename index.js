@@ -21,7 +21,7 @@ async function startServer() {
     console.log('Database connected!');
     // Importing the model above registers it with Sequelize
     // Now sync will create the table for User (and any other imported models)
-    await sequelize.sync({ force: true });
+    await sequelize.sync();
     console.log('Tables synced!');
 
     app.listen(PORT, () => {
