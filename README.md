@@ -49,8 +49,8 @@ A full-stack web application to manage employee timesheets, roles, departments, 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/hr-timesheet.git
-cd hr-timesheet
+[git clone https://github.com/yourusername/hr-timesheet.git](https://github.com/JoelNada/HRTimeSheetTracker-api.git)
+cd HRTimeSheetTracker-api
 npm install
 ```
 and 
